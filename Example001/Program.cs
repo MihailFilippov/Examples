@@ -113,7 +113,7 @@ void Zadacha8()
     }
     Console.WriteLine("\b.");
 }
-Zadacha1();
+//Zadacha1();
 // работает для любого числа
 
 

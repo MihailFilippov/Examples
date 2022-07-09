@@ -2,7 +2,10 @@
 {
     Console.WriteLine ("Введите число: ");
     int number = Convert.ToInt32(Console.ReadLine());
-
+    if (number < 1)
+    {
+        Console.WriteLine ("Введено неверное число");
+    }
     while (number > 7)
     {
         number = number - 7;
@@ -110,7 +113,9 @@ void Zadacha8()
     }
     Console.WriteLine("\b.");
 }
-//Zadacha1();
+Zadacha1();
+// работает для любого числа
+
 
 //HomeWork
 //Zadacha2();
